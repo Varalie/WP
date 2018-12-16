@@ -1,0 +1,296 @@
+@import "fonts.css";
+
+body {
+  height: 600px;
+
+  background-color: #ecdbe8;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1rem;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-left: 50px;
+
+  font-family: 'Rubik Mono One';
+  font-size: 250px;
+}
+
+h2 {
+  margin-left: 60px;
+
+  font-family: 'Rubik Mono One';
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+.grid.type1 figure {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 80px;
+
+  grid-column: 2 / 2;
+}
+
+.grid.type2 figure {
+  margin-top: -490px;
+
+  grid-column: 1 / 2;
+}
+
+.f1 img {
+  float: left;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.grid.type3 figure {
+  margin-top: -550px;
+  margin-right: 20px;
+  margin-left: 145px;
+
+  grid-column: 2 / 3;
+}
+
+.logo img {
+  position: absolute;
+
+  width: 566px;
+  height: 715px;
+
+  opacity: .1;
+}
+
+button {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-left: 550px;
+  padding: 10px 50px;
+
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+  box-shadow: 0 5px 20px rgba(142, 139, 139, 0.75);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+}
+
+button:hover {
+  transition: .2s linear;
+
+  color: black;
+  background: #ffffff;
+  box-shadow: 0 5px 20px rgba(142, 139, 139, 0.75);
+}
+
+.facebook {
+  width: 80px;
+  height: 80px;
+  margin-top: -130px;
+  margin-left: 110px;
+}
+
+.info {
+  width: 80px;
+  height: 80px;
+  margin-top: -70px;
+  margin-left: 570px;
+}
+
+.contacts p {
+  float: left;
+
+  margin: 30px;
+
+  font-size: 30px;
+}
+
+.email p {
+  float: right;
+
+  margin: 30px;
+
+  font-size: 30px;
+}
+
+@media all and (max-width: 1024px) {
+  h1 {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -170px;
+    margin-left: 120px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -540px;
+  }
+
+  .f1 img {
+    width: 120%;
+    height: 120%;
+  }
+
+  button {
+    margin-left: 450px;
+  }
+
+  .facebook {
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 90px;
+  }
+
+  .info {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 490px;
+  }
+
+  .email p {
+    margin-right: -170px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 190px;
+  }
+
+  h2 {
+    font-size: 37px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -280px;
+    margin-left: 140px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -460px;
+  }
+
+  .f1 img {
+    width: 130%;
+    height: 130%;
+  }
+
+  button {
+    margin-left: 415px;
+    padding: 5px 40px;
+
+    font-size: 55px;
+  }
+
+  .facebook {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 85px;
+  }
+
+  .info {
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 440px;
+  }
+
+  .email p {
+    margin-right: -300px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  h1 {
+    margin-left: 10px;
+
+    font-size: 185px;
+  }
+
+  h2 {
+    margin-left: 20px;
+
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 60px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 1400px;
+    margin-right: -820px;
+    margin-left: 70px;
+
+    grid-column: 1 / 2;
+  }
+
+  .grid.type2 figure {
+    margin-top: -2050px;
+
+    grid-column: 1 / 2;
+  }
+
+  .f1 img {
+    width: 550%;
+    height: 550%;
+  }
+
+  .logo img {
+    margin-left: 100px;
+}
+
+  button {
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 10px 50px;
+
+    font-size: 100px;
+  }
+
+  .facebook {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 170px;
+  }
+
+  .info {
+    width: 100px;
+    height: 100px;
+    margin-top: -55px;
+    margin-left: 270px;
+  }
+
+  .email p {
+    margin-right: -620px;
+  }
+}
