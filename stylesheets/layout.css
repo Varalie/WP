@@ -1,5 +1,9 @@
 @import "fonts.css";
 
+* {
+  transition: 0.5s;
+}
+
 body {
   height: 600px;
 
@@ -70,6 +74,8 @@ p {
 
   width: 566px;
   height: 715px;
+  margin-right: auto;
+  margin-left: 0;
 
   opacity: .1;
 }
@@ -127,7 +133,50 @@ button:hover {
   font-size: 30px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (min-width: 1181px) and (max-width: 1370px) {
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -110px;
+    margin-left: 140px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -540px;
+  }
+
+  .f1 img {
+    width: 120%;
+    height: 120%;
+  }
+
+  button {
+    margin-left: 520px;
+  }
+
+  .logo img {
+    margin-left: 130px;
+  }
+
+  .facebook {
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 110px;
+  }
+
+  .info {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 540px;
+  }
+
+  .email p {
+    margin-right: -170px;
+  }
+}
+
+@media all and (max-width: 1180px) {
   h1 {
     font-size: 200px;
   }
@@ -139,6 +188,57 @@ button:hover {
   .grid.type1 figure {
     margin-top: 100px;
     margin-right: -170px;
+    margin-left: 120px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -540px;
+  }
+
+  .f1 img {
+    width: 120%;
+    height: 120%;
+  }
+
+  button {
+    margin-left: 520px;
+  }
+
+  .logo img {
+    margin-left: 41px;
+  }
+
+  .facebook {
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 110px;
+  }
+
+  .info {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 540px;
+  }
+
+  .email p {
+    margin-right: -170px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  h1 {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -180px;
     margin-left: 120px;
   }
 
@@ -171,6 +271,57 @@ button:hover {
 
   .email p {
     margin-right: -170px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 910px) {
+  h1 {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -340px;
+    margin-left: 150px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -550px;
+  }
+
+  .logo img {
+    margin-left: 50px;
+  }
+
+  .f1 img {
+    width: 130%;
+    height: 130%;
+  }
+
+  button {
+    margin-left: 450px;
+  }
+
+  .facebook {
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 90px;
+  }
+
+  .info {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 490px;
+  }
+
+  .email p {
+    margin-right: -270px;
   }
 }
 
@@ -224,7 +375,341 @@ button:hover {
   }
 
   .email p {
-    margin-right: -300px;
+    margin-right: -340px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -450px;
+    margin-left: 220px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -460px;
+  }
+
+  .f1 img {
+    width: 160%;
+    height: 160%;
+  }
+
+  button {
+    margin-left: 415px;
+    padding: 5px 40px;
+
+    font-size: 55px;
+  }
+
+  .facebook {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 85px;
+  }
+
+  .info {
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 440px;
+  }
+
+  .email p {
+    margin-right: -380px;
+  }
+}
+
+@media all and (max-width: 550px){
+  h1 {
+    font-size: 180px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -450px;
+    margin-left: 210px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -460px;
+  }
+
+  .f1 img {
+    width: 160%;
+    height: 160%;
+  }
+
+  button {
+    margin-left: 390px;
+    padding: 5px 40px;
+
+    font-size: 55px;
+  }
+
+  .facebook {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 75px;
+  }
+
+  .info {
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 420px;
+  }
+
+  .email p {
+    margin-right: -460px;
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 520px){
+  h1 {
+    font-size: 175px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -490px;
+    margin-left: 220px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -460px;
+  }
+
+  .f1 img {
+    width: 180%;
+    height: 180%;
+  }
+
+  .logo img {
+    margin-left: 50px;
+  }
+
+  button {
+    margin-left: 380px;
+    padding: 5px 40px;
+
+    font-size: 55px;
+  }
+
+  .facebook {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 75px;
+  }
+
+  .info {
+    width: 70px;
+    height: 70px;
+    margin-top: -65px;
+    margin-left: 410px;
+  }
+
+  .email p {
+    margin-right: -490px;
+  }
+}
+
+@media all and (min-width: 415px) and (max-width: 499px){
+  h1 {
+    margin-left: 30px;
+  }
+
+  h2 {
+    margin-left: 40px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 100px;
+    margin-right: -570px;
+    margin-left: 250px;
+  }
+
+  .grid.type2 figure {
+    margin-top: -460px;
+  }
+
+  .f1 img {
+    width: 200%;
+    height: 200%;
+  }
+
+  .logo img {
+    margin-left: 60px;
+  }
+
+  button {
+    margin-left: 350px;
+    padding: 5px 40px;
+
+    font-size: 55px;
+  }
+
+  .facebook {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 75px;
+  }
+
+  .info {
+    width: 70px;
+    height: 70px;
+    margin-top: -65px;
+    margin-left: 390px;
+  }
+
+  .email p {
+    margin-right: -530px;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 414px) {
+  h1 {
+    margin-left: 10px;
+
+    font-size: 185px;
+  }
+
+  h2 {
+    margin-left: 20px;
+
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 60px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 1600px;
+    margin-right: -820px;
+    margin-left: 70px;
+
+    grid-column: 1 / 2;
+  }
+
+  .grid.type2 figure {
+    margin-top: -2250px;
+
+    grid-column: 1 / 2;
+  }
+
+  .f1 img {
+    width: 500%;
+    height: 500%;
+  }
+
+  .logo img {
+    margin-left: 105px;
+  }
+
+  button {
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 10px 50px;
+
+    font-size: 100px;
+  }
+
+  .facebook {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 170px;
+  }
+
+  .info {
+    width: 100px;
+    height: 100px;
+    margin-top: -55px;
+    margin-left: 270px;
+  }
+
+  .email p {
+    margin-right: -590px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 374px) {
+  h1 {
+    margin-left: 10px;
+
+    font-size: 185px;
+  }
+
+  h2 {
+    margin-left: 20px;
+
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 60px;
+  }
+
+  .grid.type1 figure {
+    margin-top: 1400px;
+    margin-right: -820px;
+    margin-left: 70px;
+
+    grid-column: 1 / 2;
+  }
+
+  .grid.type2 figure {
+    margin-top: -2010px;
+
+    grid-column: 1 / 2;
+  }
+
+  .f1 img {
+    width: 490%;
+    height: 490%;
+  }
+
+  .logo img {
+    margin-left: 100px;
+  }
+
+  button {
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 10px 50px;
+
+    font-size: 100px;
+  }
+
+  .facebook {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 170px;
+  }
+
+  .info {
+    width: 100px;
+    height: 100px;
+    margin-top: -55px;
+    margin-left: 270px;
+  }
+
+  .email p {
+    margin-right: -620px;
   }
 }
 
