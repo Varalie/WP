@@ -421,7 +421,7 @@ button:hover {
   }
 }
 
-@media all and (max-width: 550px){
+@media all and (max-width: 550px) {
   h1 {
     font-size: 180px;
   }
@@ -471,7 +471,7 @@ button:hover {
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 520px){
+@media all and (min-width: 500px) and (max-width: 520px) {
   h1 {
     font-size: 175px;
   }
@@ -525,7 +525,7 @@ button:hover {
   }
 }
 
-@media all and (min-width: 415px) and (max-width: 499px){
+@media all and (min-width: 415px) and (max-width: 499px) {
   h1 {
     margin-left: 30px;
   }
